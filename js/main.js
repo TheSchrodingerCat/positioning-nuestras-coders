@@ -21,3 +21,4 @@ for (i=0 ; i<6 ; i++){
 	arrayDivs[i].appendChild(miDivTexto);
 	miSeccion.appendChild(arrayDivs[i]);
 }
+

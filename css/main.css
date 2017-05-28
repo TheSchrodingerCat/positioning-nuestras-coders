@@ -1,16 +1,16 @@
+*{
+	font-family: 'Inconsolata', monospace;
+}
+
+h3{
+	margin-left: 10px;
+}
 
 #contenedor{
 	width: 500px;
 	height: 320px;
 	position: absolute;
 }
-
-/*#sub-contenedor{
-	width: 100%;
-	height: 280px;
-	position: relative;
-	bottom: 0;
-}*/
 
 .fotos{
 	width: 140px;
