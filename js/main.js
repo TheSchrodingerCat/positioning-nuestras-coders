@@ -1,9 +1,7 @@
 
 var miSeccion = document.getElementById("contenedor");
 
-/*var miDiv = document.createElement("div");
-miDiv.setAttribute("id","sub-contenedor");
-miSeccion.appendChild(miDiv);*/
+var miDivTexto, miTexto;
 
 var arrayDivs = new Array(6)
 for (i=0 ; i<6 ; i++){
@@ -15,5 +13,11 @@ for (i=0 ; i<6 ; i++){
 	arrayDivs[i].style.backgroundSize = "cover";
 	arrayDivs[i].style.boxSizing = "border-box";
 
+	miDivTexto = document.createElement("div");
+	miDivTexto.setAttribute("class","text");
+	miTexto = document.createTextNode("Nombre Apellido");
+	miDivTexto.appendChild(miTexto);
+
+	arrayDivs[i].appendChild(miDivTexto);
 	miSeccion.appendChild(arrayDivs[i]);
 }
